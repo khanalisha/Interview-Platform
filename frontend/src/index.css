@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .btn {
+    border: 2px solid;
+    @apply text-text bg-primary-100 border-primary-100;
+    padding: 0.25rem 1.25rem;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: box-shadow 0.5s ease;
+  }
+  .nav-btn {
+    border: 2px solid;
+    @apply text-text bg-primary-500 border-text;
+    padding: 0.5rem 1.25rem;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+
+  .btn-small {
+    @apply btn;
+    padding: 0.25rem 0.65rem;
+    font-size: smaller;
+  }
+
+  .btn-outline {
+    border: 2px solid;
+    @apply border-primary-500 text-text;
+    background-color: transparent;
+    padding: 0.5rem 1.25rem;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  .icon {
+    font-size: 24px;
+  }
+  .hero-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Public Sans", sans-serif;
+  }
+
+  .footer-font {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.75 rem;
+    padding-bottom: 0.5rem;
+  }
+  .footer-inner-font {
+    font-family: "Public Sans", sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    line-height: 24px;
+  }
+
+  .btn:hover {
+    box-shadow: 0 0 10px #fca920;
+  }
+  .dark {
+    width: 304px;
+    height: auto;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+  }
+  .Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+  }
+  .bottom-div {
+    border-radius: 0.5rem;
+    padding: 2rem 0px 2rem 0px;
+  }
+  .bottom-p1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: Montserrat, sans-serif;
+  }
+  .bottom-p2 {
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Public Sans", sans-serif;
+  }
+  .style-p-tag {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Public Sans", sans-serif;
+    margin-top: 1rem;
+  }
+}
+
+/* Font name: "Public Sans", sans-serif
+
+Font size: 18px
+
+Font weight: 700
+
+Line height: 24px
+
+Font color: rgb(128, 98, 214) */
+/* 
+Font name: "Public Sans", sans-serif
+
+Font size: 16px
+
+Font weight: 400
+
+Line height: 24px
+
+Font color: rgb(239, 239, 239)
+*/
