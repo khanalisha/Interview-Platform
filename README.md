@@ -5,7 +5,8 @@ Welcome to the Interview Practice Hub! 🚀 This platform is your go-to resource
 
 [Want to see live »]()
 
-![image](https://github.com/khanalisha/Interview-Platform/assets/123863034/3a5973a6-ed56-48fe-9718-c2f8ff827980)
+![image](https://github.com/khanalisha/Interview-Platform/assets/123863034/971058cf-9bdd-4724-a37e-481c189f018d)
+
 
 
 
