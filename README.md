@@ -5,7 +5,8 @@ Welcome to the Interview Practice Hub! 🚀 This platform is your go-to resource
 
 [Want to see live »]()
 
-![Screenshot (1060)](https://github.com/mohdadil12345/Home_Chef/assets/123920314/48c6eeb5-c9f1-4646-a3b7-05d43ba04a03)
+![image](https://github.com/khanalisha/Interview-Platform/assets/123863034/3a5973a6-ed56-48fe-9718-c2f8ff827980)
+
 
 
 ## 🛠 Skills
