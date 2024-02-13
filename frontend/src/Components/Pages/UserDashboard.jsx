@@ -1,19 +1,19 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Container from "../container/Container";
 
 export const UserDashboard = () => {
-  const navigate=useNavigate()
+  const navigate = useNavigate();
   let token = localStorage.getItem("token") || "";
 
   // let userImage = localStorage.getItem("userImage") || "";
   const [interviews, setInterviews] = useState([]);
- 
 
   useEffect(() => {
-     if (!token) {
-    navigate("/login")
-  }
+    if (!token) {
+      navigate("/login");
+    }
     fetchUserInterviews();
   }, []);
   async function fetchUserInterviews() {
@@ -33,15 +33,16 @@ export const UserDashboard = () => {
     }
   }
   return (
-    <div className="min-h-[86vh]">
-      <h1 className="text-2xl mb-8">User's Past Interviews</h1>
+    <Container>
+    <div className="min-h-[86vh] pt-28 p-10">
+      <h1 className="text-2xl mb-8 ">User's Past Interviews</h1>
       <div className="grid grid-cols-3 gap-4">
         {interviews.length > 0 &&
           interviews.map((el) => {
             return (
               <div
                 key={el.userId}
-                className="max-w-sm bg-white border  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 "
+                className="max-w-sm bg-white border  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
               >
                 <img
                   className="rounded-t-lg max-h-60 w-full"
@@ -65,6 +66,7 @@ export const UserDashboard = () => {
             );
           })}
       </div>
-    </div>
+      </div>
+      </Container>
   );
 };

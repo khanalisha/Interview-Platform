@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { TextToSpeech } from "./TextToSpeech";
 import { Latest_Message } from "../redux/actionType";
+import Container from "../container/Container";
 
 export const InterviewRoom = () => {
   const [text, setText] = useState("");
@@ -82,7 +83,7 @@ export const InterviewRoom = () => {
   };
 
   return (
-    <div className="border min-h-screen overflow-hidden flex justify-between mt-10">
+    <div className=" min-h-screen overflow-hidden flex justify-between pt-24 pb-7 pl-4 borderradious">
       <div className="relative flex-grow bg-slate-200">
         <div className="py-20 px-4 relative">
           <div className="flex gap-4">
@@ -127,8 +128,8 @@ export const InterviewRoom = () => {
           </button>
         </div>
       </div>
-      <div className="p-4 w-1/3 flex-col gap-8 border-l">
-        <div className="p-4 flex-grow mb-12 bg-white w-full h-3/5 rounded-md border scroll-m-0 overflow-y-scroll overflow-x-hidden">
+      <div className="pt-0.5 p-4 w-1/3 flex-col gap-8 border-l">
+        <div className="p-3.5 flex-grow mb-12 bg-white w-full h-3/5 rounded-md border scroll-m-0 overflow-y-scroll overflow-x-hidden">
           {conversation.map((iteam, index) => (
             <div
               className="shadow-md rounded-md p-4 my-2 flex flex-col gap-2 justify-between"

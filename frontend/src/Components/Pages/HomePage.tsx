@@ -8,8 +8,8 @@ import { Bottom } from "../Bottom";
 const HomePage = () => {
   const isAuth = useSelector((store: any) => store.authReducer.isAuth);
   console.log(isAuth, "home");
-  const token = localStorage.getItem("token")
-  console.log(token,"homepage")
+  const token = localStorage.getItem("token");
+  console.log(token, "homepage");
   const navigate = useNavigate();
   const handleClick = () => {
     if (token) {
@@ -21,7 +21,7 @@ const HomePage = () => {
   /**border border-solid border-black */
   return (
     <Container>
-      <div className=" bg-primary-500">
+      <div className=" bg-#fffff">
         <div className="flex justify-center items-center min-h-[86vh] ">
           <div className="flex justify-center flex-col px-12 text-8xl  text-left">
             <p className="text-boldText text-5xl leading-[60px] font-sans font-bold ">
@@ -36,8 +36,8 @@ const HomePage = () => {
             </button>
           </div>
 
-          <div className="flex justify-center items-center w-[50%]">
-            <img className="rounded-3xl w-[80%]" src="AI_image2.jpg" alt="" />
+          <div className="flex justify-center items-center w-[50%] pt-24 pl-14">
+            <img className="rounded-3xl w-[100%]" src="mockupint.svg" alt="" />
           </div>
         </div>
         <Hero />

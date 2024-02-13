@@ -1,4 +1,5 @@
 import { useSpeechSynthesis } from "react-speech-kit";
+
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
@@ -26,7 +27,7 @@ export const Speak = () => {
   }, [latest]);
 
   return (
-    <div>
+    <div className="">
       <select value={voiceType} onChange={(e) => setVoiceType(e.target.value)}>
         <option value="" disabled>
           {" "}

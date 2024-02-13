@@ -23,7 +23,7 @@ const courseData = [
 
 const Course = () => {
   return (
-    <div className=" flex items-center justify-center  min-h-[86vh] ">
+    <div className=" flex items-center justify-center  min-h-[86vh] pt-20 ">
       <div className="p-4  grid grid-cols-3 w-[90%]">
         {courseData.map((card, index) => (
           <div key={index} className="w-[90%] p-4 m-auto ">

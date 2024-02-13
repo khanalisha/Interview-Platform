@@ -5,9 +5,9 @@ import Container from "../container/Container";
 export const Hero = () => {
   return (
     <Container>
-      <div className=" flex bg-primary-500 text-white p-16 gap-20">
-        <div className="container mx-auto">
-          <img src="interview-image-2.png" alt="" />
+      <div className=" flex justify-center bg-#fffff text-white p-16 gap-64">
+        <div className=" flex justify-center container mx-auto w-[70%] border border solid">
+          <img src="heroimg.jpeg" alt="" className="w-[100%]" />
         </div>
         <div className="container mx-auto">
           <div className="text-left">

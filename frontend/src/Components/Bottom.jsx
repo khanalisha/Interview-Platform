@@ -1,7 +1,13 @@
 import React from "react";
 import Container from "./container/Container";
+import { useNavigate } from "react-router-dom";
 
 export const Bottom = () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/interviewType");
+  };
+
   return (
     <Container>
       <div className="bottom-div border border-solid">
@@ -14,7 +20,9 @@ export const Bottom = () => {
           Empowering candidates to ace interviews and excel in their careers,{" "}
           <br /> one success story at a time.
         </p>
-        <button className="btn">Lets start</button>
+        <button className="btn" onClick={handleClick}>
+          Let's start
+        </button>
       </div>
     </Container>
   );

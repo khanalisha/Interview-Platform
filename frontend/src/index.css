@@ -26,8 +26,8 @@
 
   .btn-outline {
     border: 2px solid;
-    @apply border-primary-500 text-text;
-    background-color: transparent;
+    @apply border-primary-600 text-text;
+    background-color: #ffffff;
     padding: 0.5rem 1.25rem;
     border-radius: 4px;
     font-weight: 500;
@@ -35,7 +35,7 @@
   .icon {
     font-size: 24px;
   }
-  .hero-p{
+  .hero-p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -97,6 +97,12 @@
     line-height: 24px;
     font-family: "Public Sans", sans-serif;
     margin-top: 1rem;
+  }
+  .borderradious {
+    border-radius: 12px;
+  }
+  .b {
+    border-color: none;
   }
 }
 

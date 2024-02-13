@@ -60,7 +60,7 @@ export const TextToSpeech = ({ conversation, setConversation, interview }) => {
           },
         }
       );
-
+      setText("");
       setConversation([
         ...conversation,
         { role: "user", content: text.trim() },
@@ -72,8 +72,6 @@ export const TextToSpeech = ({ conversation, setConversation, interview }) => {
 
       // Read out the assistant's response
       dispatch({ type: Latest_Message, payload: response.data.answer });
-
-      setText("");
     } catch (error) {
       console.log(error);
     }

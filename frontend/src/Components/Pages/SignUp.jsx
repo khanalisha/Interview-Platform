@@ -26,7 +26,7 @@ export const SignUp = () => {
     navigate("/login");
   };
   return (
-    <form className="max-w-sm mx-auto m-20 ">
+    <form className="max-w-sm mx-auto p-3 m-20 ">
       <h1>CREATE ACCOUNT</h1>
       <label
         className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"

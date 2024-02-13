@@ -8,7 +8,7 @@ import { Navbar } from "./Components/Navbar";
 
 function App() {
   return (
-    <div className="App bg-primary-500 text-text">
+    <div className="App bg-#ffffff text-text">
       <Navbar />
       <AllRoutes />
       <Footer />

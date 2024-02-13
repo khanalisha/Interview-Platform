@@ -16,9 +16,11 @@ export const RegisterUser = (registerUser) => (dispatch) => {
     .then((res) => {
       console.log(res);
       dispatch({ type: Register_User_Success });
+      alert("Registration Sucessfull !");
     })
     .catch((error) => {
       dispatch({ type: Register_User_Fail });
+      alert("Error !");
     });
 };
 
@@ -34,17 +36,17 @@ export const LoginUser = (userObj, navigate) => (dispatch) => {
       console.log(userData.existinguser.userImage, "loginUser");
       localStorage.setItem("token", userData.token);
       localStorage.setItem("userImage", userData.existinguser.userImage);
-
-      navigate("/interviewType");
       dispatch({
         type: Login_Success,
         payload: userData,
         isAuth: true,
       });
-     
+      alert("Login Sucessfull !");
+      navigate("/interviewType");
     })
     .catch((error) => {
       console.error("Authentication error:", error);
       dispatch({ type: Login_Fail });
+      alert("Error !");
     });
 };
