@@ -3,7 +3,7 @@
 Interview Practice Hub for Java, JavaScript, Node.js, and MERN Stack
 Welcome to the Interview Practice Hub! 🚀 This platform is your go-to resource for honing your skills and acing technical interviews in Java, JavaScript, Node.js, and the MERN stack (MongoDB, Express.js, React.js, Node.js
 
-[Want to see live »](https://65cc75b7f3d74d80b8727457--fastidious-douhua-8b0933.netlify.app/)
+[Want to see live »](https://65cc833d0cc2ec8ac4d3cf80--delicate-chimera-0f4997.netlify.app/)
 
 ![image](https://github.com/khanalisha/Interview-Platform/assets/123863034/971058cf-9bdd-4724-a37e-481c189f018d)
 
