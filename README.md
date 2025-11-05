@@ -11,14 +11,32 @@ Welcome to the Interview Practice Hub! 🚀 This platform is your go-to resource
 
 
 ## 🛠 Skills
+
 <p align="center">
+  <!-- Badges -->
   <a href="https://choosealicense.com/licenses/mit/">
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   </a>
   <a href="https://opensource.org/licenses/">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  </a>
+  <a href="https://opensource.org/licenses/">
     <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
   </a>
+  <a href="https://nodejs.org/">
+    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  </a>
+  <a href="https://expressjs.com/">
+    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  </a>
+  <a href="https://www.mongodb.com/">
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  </a>
+  <a href="https://redux.js.org/">
+    <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />
+  </a>
 </p>
+
 
 
 
